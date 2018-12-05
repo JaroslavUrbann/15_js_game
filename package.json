@@ -1,0 +1,29 @@
+{
+    "name": "app-name",
+    "author": {
+        "name": "My Name",
+        "email": "my@email.com",
+        "url": "https://mywebsite"
+    },
+    "version": "0.0.1",
+    "description": "Popis aplikace - k čemu slouží a co dělá...",
+    "keywords": [
+        "definice",
+        "obecny",
+        "vzor"
+    ],
+    "homepage": "https://my.domain.com/publish/app-name",
+    "license": "PDDL-1.0",
+    "dependencies": {
+        "redux": "^3.7.2"
+    },
+    "devDependencies": {
+        "react-scripts": "1.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
